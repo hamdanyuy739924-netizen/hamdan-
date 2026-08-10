@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+}
+table,th,td{
+
+    border: 1px solid rgb(73, 87, 112);
+    font-size: 16px;
+    
+}
+
+.BMW{
+    color:rgb(92, 98, 100) ;
+    font-size: 40px;
+    animation:move 10s linear infinite;
+    display: inline-block;
+    white-space: nowrap; 
+    
+    
+    animation: move 7s linear infinite ;
+  }
+  
+  
+  @keyframes move {
+    0% {
+      transform: translateX(450px); 
+    }
+    100% {
+      transform: translateX(-1350px); 
+    }
+  }
+
+h3 strong{
+    color:black ;
+    width: 20px;
+}
+p strong{
+    color: brown ;
+    width: 20px;
+}
+
+
+h3 {
+
+    color: rgb(92, 98, 100);
+    border:  5px ridge;
+    width: 220;
+    
+}
+h4{
+    color:rgb(92, 98, 100);
+    border: 5px ridge;
+    width: 120px;
+    
+}
+label {
+    color: seagreen;
+    width: 50px;
+}
+option{
+    color: rgb(60, 104, 30);
+}
+button{
+    color:brown;
+}
+.f{
+    background:rgb(215, 220, 221);
+    color: #2b07fa;
+    font-family: fantasy;
+}
+.e{
+    background:maroon;
+    color: azure;
+}
+#p{
+    background:navy;
+    color:azure;
+}
+.o{
+    background:forestgreen;
+    font-family: fantasy;
+    color: azure;
+}
+#j{
+    background:rgb(92, 98, 100);
+    color: azure;
+}
+#y{
+    height: 100px;
+    background: rgb(224, 218, 161) ;
+}
+img{
+    mix-blend-mode: multiply;
+}
+a{
+    color: red;
+}
+a:hover {
+    color: #0056b3;
+}
